@@ -1,20 +1,3 @@
-"""
-Inversion Count Classroom Visualizer — FINAL (dark tree boxes + indices + highlights)
-
-Features:
-- Balanced recursion tree. Each node shows array values inside box and index range below.
-- Active node highlighted (yellow border). Active subtree/visited links brightened.
-- Left / Right / Merged blocks visible for each step.
-- Semi-smooth sliding animation for moves (visible & slow for classroom).
-- Arrow pulses for comparisons, red flash for inversion-caused moves.
-- Next / Previous buttons. Next plays animation for that step; Previous shows static snapshot.
-- Minimal, large hint text appropriate for 10th-grade explanation.
-
-Usage:
-- Save file and run: python inversion_viz_classroom_tree.py
-- Edit array in the __main__ block at bottom (arr = [...])
-"""
-
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from matplotlib.widgets import Button

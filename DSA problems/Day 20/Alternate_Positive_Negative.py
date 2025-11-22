@@ -1,10 +1,3 @@
-"""
-Simplified Dark‑Mode Tkinter Visualization
-Alternate Positive / Negative Arrangement (Option A – Keep Order)
-Clean, simple, readable code (no complex ternary, no nested logic)
-Run in VS Code with:  python app.py
-"""
-
 import tkinter as tk
 from tkinter import font
 
